@@ -33,4 +33,203 @@ jobs:
               run: mkdir .egstore
 
             - name: Get Epic Freebies
-              run: yarn start ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} 0 ${{ secrets.SECRETKEY }}
+              run: yarn start ${{ secrets.USERNAME1 }} ${{ secrets.PASSWORD1 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME2 }} ${{ secrets.PASSWORD2 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME3 }} ${{ secrets.PASSWORD3 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME4 }} ${{ secrets.PASSWORD4 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME5 }} ${{ secrets.PASSWORD5 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME6 }} ${{ secrets.PASSWORD6 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME7 }} ${{ secrets.PASSWORD7 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME8 }} ${{ secrets.PASSWORD8 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME9 }} ${{ secrets.PASSWORD9 }} 0 ${{ secrets.SECRETKEY }}
+   claim:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "Revadike/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.USERNAME10 }} ${{ secrets.PASSWORD10 }} 0 ${{ secrets.SECRETKEY }}
+
